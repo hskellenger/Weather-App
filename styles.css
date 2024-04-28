@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'montserrat';
 }
 body{
     background-color: #222;
@@ -9,7 +12,7 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(135deg, #cbede4, #685bbf);
     color: white;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -79,5 +82,14 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
-
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px ;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
 /* API Key d7ee6d04efb378985e3d354a64984331
